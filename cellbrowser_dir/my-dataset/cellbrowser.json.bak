@@ -1,0 +1,30 @@
+{
+  "name": "my-dataset",
+  "shortLabel": "my-dataset",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "defColorField": "leiden",
+  "labelField": "leiden",
+  "enumFields": [
+    "leiden"
+  ],
+  "coords": [
+    {
+      "file": "/home/mert/Documents/scanpy-import/pca_coords.tsv",
+      "shortLabel": "pca"
+    },
+    {
+      "file": "/home/mert/Documents/scanpy-import/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    }
+  ],
+  "markers": [
+    {
+      "file": "/home/mert/Documents/scanpy-import/markers.tsv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "inDir": ""
+}
