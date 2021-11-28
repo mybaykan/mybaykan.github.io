@@ -1,6 +1,28 @@
+@font-face {
+  font-family: noto_sans;
+  src: url(Noto_Sans/NotoSans-Regular.ttf);
+}
+
+a:hover {
+  text-decoration: none;
+}
+.row {
+  margin-left: 10px;
+}
+
+.table td,
+.table th {
+  border-top: none;
+}
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
+  font-family: noto_sans;
+}
+
+.table thead th {
+  border-bottom: 2px solid #212529;
 }
 
 .sidebar {
